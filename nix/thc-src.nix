@@ -3,12 +3,12 @@
 { runCommand, fetchFromGitHub, haskell }:
 
 let
-  rev = "621b6c15a8a152dfb946ed06bbc3be551a9b104d";
+  rev = "caf5c7792ca76ddcb84fcf2d18e8b05a4a83be9b";
   thc = fetchFromGitHub {
     owner = "ekmett";
     repo = "thc";
     inherit rev;
-    hash = "sha256-BQv+Oy3StcEXV2gXxbYlqj7QNqi+skAAbuhYCn2T5yI=";
+    hash = "sha256-BAqmsIFjNMCDe6kqhZKFml+w3xU0siobly4ppU+y6+k=";
   };
   bytestring = fetchFromGitHub {
     owner = "haskell";

@@ -1,7 +1,7 @@
 # thc-nix
 
 Nix packaging for [THC](https://github.com/ekmett/thc) (Haskell on
-Truffle/Graal), pinned to upstream `621b6c15a` (2026-09-29).
+Truffle/Graal), pinned to upstream `caf5c7792` (2026-09-29).
 
 | Output | What it is |
 | --- | --- |
